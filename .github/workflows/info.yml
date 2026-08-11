@@ -12,4 +12,4 @@ jobs:
 
     steps:
       - name: Display Python version
-        run: pwd && echo "hello world!!!" && find .  && echo "end job"
+        run: pwd && git clone https://github.com/DHsong1234/test.git && find .  && echo "end job"
